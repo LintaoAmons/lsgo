@@ -1,5 +1,5 @@
 # 设置要编译的目标平台和体系结构
-TARGETS = darwin/amd64 darwin/arm64 linux/amd64 windows/amd64
+TARGETS = darwin/arm64 linux/amd64 windows/amd64
 
 OUTPUT_DIR = artifact
 
