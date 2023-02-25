@@ -14,4 +14,8 @@ $(TARGETS):
 clean:
 	rm -rf $(OUTPUT_DIR)
 
+build:
+	go build -o ~/.local/bin/lsgo main.go
+	chmod u+x ~/.local/bin/lsgo
+
 .PHONY: all clean $(TARGETS)
