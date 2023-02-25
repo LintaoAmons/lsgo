@@ -8,5 +8,4 @@ jobs:
 
     steps:
       - name: Run a multi-line script
-        run: |
-          make all
+        run: make all
