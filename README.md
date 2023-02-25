@@ -1,4 +1,5 @@
 # A better `ls -t`
+> Thanks ChatGPT to allow me write this useful mini-program less than 2 hours
 
 
 ## Install
