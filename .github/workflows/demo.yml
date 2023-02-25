@@ -7,5 +7,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      - name: setup working dir
+        run: pwd
       - name: Run a multi-line script
         run: make all
