@@ -11,5 +11,7 @@ jobs:
         run: |
           pwd
           ls
+      - name: check current dir
+        run: ls
       - name: compile all
         run: make all
