@@ -1,17 +1,17 @@
 name: simple workflow
 
-on: workflow_dispatch
+on: 
+  push:
+    branches:
+      - main
+
 
 jobs:
   build:
     runs-on: ubuntu-latest
 
     steps:
-      - name: setup working dir
-        run: |
-          pwd
-          ls
-      - name: check current dir
-        run: ls
+      - name: checkout repo
+        uses: actions/checkout@v2
       - name: compile all
         run: make all
