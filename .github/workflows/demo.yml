@@ -8,6 +8,8 @@ jobs:
 
     steps:
       - name: setup working dir
-        run: pwd
-      - name: Run a multi-line script
+        run: |
+          pwd
+          ls
+      - name: compile all
         run: make all
